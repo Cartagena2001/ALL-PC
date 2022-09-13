@@ -1,21 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package all.pc;
+import all.pc.shared.Equipment;
+import all.pc.shared.EquipmentDesktop;
+import java.util.ArrayList;
 
-/**
- *
- * @author Cartagena
- */
 public class ALLPC {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        ArrayList<Equipment> equipments = new ArrayList<Equipment>();
+        
+        EquipmentDesktop eq = new EquipmentDesktop("DELL", "Ak47", "CoreDUO", "8Ghz", "GT710", "2cm", "20kb");
+        equipments.add(eq);
+        
+        for (Equipment equipment : equipments) {
+            System.out.println(equipment);
+        }
     }
     
 }
