@@ -10,11 +10,11 @@ package all.pc.shared;
  * @author Cartagena
  */
 public class EquipmentTablet extends Equipment{
-    
-    public String screen_diagonal_size;
-    public String resistive_capacity;
-    public String nand_memory_size;
-    public String os;
+
+    private String screen_diagonal_size;
+    private String resistive_capacity;
+    private String nand_memory_size;
+    private String os;
     
     public String getScreen_diagonal_size() {
         return screen_diagonal_size;

@@ -20,11 +20,12 @@ public class AllPc {
         eq.setDisk_capacity(JOptionPane.showInputDialog(null, "Enter Disk Capacity"));
         
         int n =1;
-        String msg ="";
+        StringBuilder msg = new StringBuilder();
         for(int i=0 ; i < n ; i++){
-            msg += "Desktops(" + (i+1) + ")" +"\nMaker  = " +eq.getMaker() +"\nModel  = " +eq.getModel() +"\nProcessor  = " +eq.getProcessor() +"\nMemory  = " +eq.getMemory() +"\nGraphic Card  = " +eq.getGraphic_card() +"\nTower size  = " +eq.getTower_size() +"\nDisk capacity  = " +eq.getDisk_capacity_size() + "\n--------------------------------\n";
+            msg.append("Desktops(").append(i + 1).append(")").append("\nMaker  = ").append(eq.getMaker()).append("\nModel  = ").append(eq.getModel()).append("\nProcessor  = ").append(eq.getProcessor()).append("\nMemory  = ").append(eq.getMemory()).append("\nGraphic Card  = ").append(eq.getGraphic_card()).append("\nTower size  = ").append(eq.getTower_size()).append("\nDisk capacity  = ").append(eq.getDisk_capacity_size()).append("\n--------------------------------\n");
         }
-        JOptionPane.showMessageDialog(null, msg);
+
+        JOptionPane.showMessageDialog(null, msg.toString());
     }
     
 }

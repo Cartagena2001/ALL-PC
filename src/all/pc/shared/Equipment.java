@@ -10,10 +10,10 @@ package all.pc.shared;
  * @author Cartagena
  */
 public class Equipment {
-    
-    public String maker;
-    public String model;
-    public String processor;
+
+    private String maker;
+    private String model;
+    private String processor;
 
     public String getMaker() {
         return maker;

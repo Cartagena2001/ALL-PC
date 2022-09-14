@@ -11,10 +11,10 @@ package all.pc.shared;
  */
 public class EquipmentDesktop extends Equipment {
     
-    public String memory;
-    public String graphic_card;
-    public String tower_size;
-    public String disk_capacity;
+    private String memory;
+    private String graphic_card;
+    private String tower_size;
+    private String disk_capacity;
     
     public String getMemory() {
         return memory;
@@ -29,6 +29,7 @@ public class EquipmentDesktop extends Equipment {
     }
     
     public void setGraphic_card(String graphic_card) {
+
         this.graphic_card = graphic_card;
     }
     

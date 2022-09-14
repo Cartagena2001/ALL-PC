@@ -10,10 +10,10 @@ package all.pc.shared;
  * @author Cartagena
  */
 public class EquipmentLaptop extends Equipment {
-    
-    public String memory;
-    public String disk_capacity;
-    public String screen_size;
+
+    private String memory;
+    private String disk_capacity;
+    private String screen_size;
     
     public String getMemory() {
         return memory;
