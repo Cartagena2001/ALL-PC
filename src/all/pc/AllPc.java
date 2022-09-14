@@ -1,13 +1,12 @@
 package all.pc;
-import all.pc.shared.Equipment;
 import all.pc.shared.EquipmentDesktop;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
-public class ALLPC {
+public class AllPc {
 
     public static void main(String[] args) {
-        
+
         ArrayList<EquipmentDesktop> equipments = new ArrayList<EquipmentDesktop>();
         EquipmentDesktop eq = new EquipmentDesktop();
         

@@ -14,11 +14,7 @@ public class Equipment {
     public String maker;
     public String model;
     public String processor;
-        
-    public Equipment() {
-        
-    }
-    
+
     public String getMaker() {
         return maker;
     }
@@ -40,12 +36,6 @@ public class Equipment {
     }
     
     public void setProcessor(String processor) {
-        this.processor = processor;
-    }
-    
-    public void details(String maker, String model, String processor) {
-        this.maker = maker;
-        this.model = model;
         this.processor = processor;
     }
 }

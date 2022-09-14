@@ -16,10 +16,6 @@ public class EquipmentTablet extends Equipment{
     public String nand_memory_size;
     public String os;
     
-    public EquipmentTablet(){
-
-    }
-    
     public String getScreen_diagonal_size() {
         return screen_diagonal_size;
     }

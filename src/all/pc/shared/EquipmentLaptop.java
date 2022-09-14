@@ -15,11 +15,6 @@ public class EquipmentLaptop extends Equipment {
     public String disk_capacity;
     public String screen_size;
     
-    
-    public EquipmentLaptop(){
-
-    }
-    
     public String getMemory() {
         return memory;
     }
