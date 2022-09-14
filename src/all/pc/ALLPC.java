@@ -2,19 +2,19 @@ package all.pc;
 import all.pc.shared.Equipment;
 import all.pc.shared.EquipmentDesktop;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 public class ALLPC {
 
     public static void main(String[] args) {
         
-        ArrayList<Equipment> equipments = new ArrayList<Equipment>();
+        ArrayList<EquipmentDesktop> equipments = new ArrayList<EquipmentDesktop>();
+
+        EquipmentDesktop eq = new EquipmentDesktop();
+        eq.setDisk_capacity("hola");
         
-        EquipmentDesktop eq = new EquipmentDesktop("DELL", "Ak47", "CoreDUO", "8Ghz", "GT710", "2cm", "20kb");
-        equipments.add(eq);
-        
-        for (Equipment equipment : equipments) {
-            System.out.println(equipment);
-        }
+        eq.setMaker("Dell");
+        System.out.println(eq.getDisk_capacity_size());
     }
     
 }

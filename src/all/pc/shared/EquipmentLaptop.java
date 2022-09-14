@@ -15,10 +15,32 @@ public class EquipmentLaptop extends Equipment {
     public String disk_capacity;
     public String screen_size;
     
-    EquipmentLaptop(String maker, String model, String processor, String memory, String disk_capacity, String screen_size){
-        super(maker, model, processor);
+    
+    public EquipmentLaptop(){
+
+    }
+    
+    public String getMemory() {
+        return memory;
+    }
+    
+    public void setMemory(String memory) {
         this.memory = memory;
+    }
+    
+    public String getDisk_capacity() {
+        return disk_capacity;
+    }
+    
+    public void setDisk_capacity(String disk_capacity) {
         this.disk_capacity = disk_capacity;
+    }
+    
+    public String getScreen_size() {
+        return screen_size;
+    }
+    
+    public void setScreen_size(String screen_size) {
         this.screen_size = screen_size;
     }
 }

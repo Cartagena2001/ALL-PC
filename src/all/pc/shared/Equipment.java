@@ -14,12 +14,38 @@ public class Equipment {
     public String maker;
     public String model;
     public String processor;
-
+        
+    public Equipment() {
+        
+    }
     
-    Equipment(String maker, String model, String processor){
+    public String getMaker() {
+        return maker;
+    }
+    
+    public void setMaker(String maker) {
+        this.maker = maker;
+    }
+    
+    public String getModel() {
+        return model;
+    }
+    
+    public void setModel(String model) {
+        this.model = model;
+    }
+    
+    public String getProcessor() {
+        return processor;
+    }
+    
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+    
+    public void details(String maker, String model, String processor) {
         this.maker = maker;
         this.model = model;
         this.processor = processor;
-        
     }
 }
