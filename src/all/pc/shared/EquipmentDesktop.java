@@ -3,9 +3,9 @@ package all.pc.shared;
 public class EquipmentDesktop extends Equipment {
     
     private String memory;
-    private String graphic_card;
-    private String tower_size;
-    private String disk_capacity;
+    private String graphicCard;
+    private String towerSize;
+    private String diskCapacity;
     
     public String getMemory() {
         return memory;
@@ -15,28 +15,27 @@ public class EquipmentDesktop extends Equipment {
         this.memory = memory;
     }
     
-    public String getGraphic_card() {
-        return graphic_card;
+    public String getGraphicCard() {
+        return graphicCard;
     }
     
-    public void setGraphic_card(String graphic_card) {
-
-        this.graphic_card = graphic_card;
+    public void setGraphicCard(String graphicCard) {
+        this.graphicCard = graphicCard;
     }
     
-    public String getTower_size() {
-        return tower_size;
+    public String getTowerSize() {
+        return towerSize;
     }
     
-    public void setTower_size(String tower_size) {
-        this.tower_size = tower_size;
+    public void setTowerSize(String towerSize) {
+        this.towerSize = towerSize;
     }
     
     public String getDisk_capacity_size() {
-        return disk_capacity;
+        return diskCapacity;
     }
     
-    public void setDisk_capacity(String disk_capacity) {
-        this.disk_capacity = disk_capacity;
+    public void setDiskCapacity(String diskCapacity) {
+        this.diskCapacity = diskCapacity;
     }
 }

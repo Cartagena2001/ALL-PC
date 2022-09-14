@@ -2,17 +2,17 @@ package all.pc.shared;
 
 public class EquipmentTablet extends Equipment{
 
-    private String screen_diagonal_size;
+    private String screenDiagonalSize;
     private String resistive_capacity;
-    private String nand_memory_size;
+    private String nandMemorySize;
     private String os;
     
-    public String getScreen_diagonal_size() {
-        return screen_diagonal_size;
+    public String getScreenDiagonalSize() {
+        return screenDiagonalSize;
     }
     
-    public void setScreen_diagonal_size(String screen_diagonal_size) {
-        this.screen_diagonal_size = screen_diagonal_size;
+    public void setScreenDiagonalSize(String screenDiagonalSize) {
+        this.screenDiagonalSize = screenDiagonalSize;
     }
     
     public String getResistive_capacity() {
@@ -23,12 +23,12 @@ public class EquipmentTablet extends Equipment{
         this.resistive_capacity = resistive_capacity;
     }
     
-    public String getNand_memory_size() {
-        return nand_memory_size;
+    public String getNandMemorySize() {
+        return nandMemorySize;
     }
     
-    public void setNand_memory_size(String nand_memory_size) {
-        this.nand_memory_size = nand_memory_size;
+    public void setNandMemorySize(String nandMemorySize) {
+        this.nandMemorySize = nandMemorySize;
     }
     
     public String getOs() {

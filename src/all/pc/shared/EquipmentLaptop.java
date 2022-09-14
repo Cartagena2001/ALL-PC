@@ -3,8 +3,8 @@ package all.pc.shared;
 public class EquipmentLaptop extends Equipment {
 
     private String memory;
-    private String disk_capacity;
-    private String screen_size;
+    private String diskCapacity;
+    private String screenSize;
     
     public String getMemory() {
         return memory;
@@ -14,19 +14,19 @@ public class EquipmentLaptop extends Equipment {
         this.memory = memory;
     }
     
-    public String getDisk_capacity() {
-        return disk_capacity;
+    public String getDiskCapacity() {
+        return diskCapacity;
     }
     
-    public void setDisk_capacity(String disk_capacity) {
-        this.disk_capacity = disk_capacity;
+    public void setDiskCapacity(String diskCapacity) {
+        this.diskCapacity = diskCapacity;
     }
     
-    public String getScreen_size() {
-        return screen_size;
+    public String getScreenSize() {
+        return screenSize;
     }
     
-    public void setScreen_size(String screen_size) {
-        this.screen_size = screen_size;
+    public void setScreenSize(String screenSize) {
+        this.screenSize = screenSize;
     }
 }
