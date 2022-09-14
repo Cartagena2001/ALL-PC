@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package menu;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Cartagena
- */
 public class Menu {
     
     public static void Menu(){
@@ -88,4 +79,3 @@ public class Menu {
         }while(!option.equals("0"));   
     }
 }
-
